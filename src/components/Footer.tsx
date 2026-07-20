@@ -22,6 +22,18 @@ const Footer = () => {
           <p className="text-primary-foreground/50 text-sm">
             © {currentYear} Corpvantage AB. Alla rättigheter förbehållna.
           </p>
+
+          <p className="text-primary-foreground/50 text-sm mt-2">
+            Webbplatsen drivs och underhålls av{" "}
+            <a
+              href="https://sitepulse.se"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-primary-foreground transition-colors"
+            >
+              SitePulse
+            </a>
+          </p>
         </div>
       </div>
     </footer>
